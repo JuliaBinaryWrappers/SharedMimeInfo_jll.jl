@@ -1,113 +1,115 @@
 [[SharedMimeInfo]]
 arch = "aarch64"
-git-tree-sha1 = "c1638399ee3a7074fe9e8aa0510c8bdb0a57211f"
+git-tree-sha1 = "7d1484b526ddca47334bae0e41a2f6f4a9a72bc3"
 libc = "glibc"
 os = "linux"
 
     [[SharedMimeInfo.download]]
-    sha256 = "4a236d850859316a76f2a30e0053b05acf43689206b7840b63705cbbc78fb75b"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "0a869bbfde73a77e9cefe2d794eabeba39d7a4619a5673a1615141a7b10876e0"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.aarch64-linux-gnu.tar.gz"
 [[SharedMimeInfo]]
-arch = "x86_64"
-git-tree-sha1 = "f465450be30d05ba675d65eae01fc3f807386aaf"
-libc = "glibc"
-os = "linux"
-
-    [[SharedMimeInfo.download]]
-    sha256 = "98499867a0b90fa20f7128570e925cfdec94e8c3389b3cbfcd35fdd552dc061f"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.x86_64-linux-gnu.tar.gz"
-[[SharedMimeInfo]]
-arch = "armv7l"
-git-tree-sha1 = "d43b0eac0757e6bd808f08ec96dfa15a7b6f96ac"
+arch = "aarch64"
+git-tree-sha1 = "e9f62afffbce822cd4ca1a53d1053b5e1cc3a044"
 libc = "musl"
 os = "linux"
 
     [[SharedMimeInfo.download]]
-    sha256 = "c78c82527df241e25a81b823b8f0f745c9010d7ca7bfb680aa9c8bd3b8dff106"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.arm-linux-musleabihf.tar.gz"
+    sha256 = "c281fb71e399e015f708d150fa3908f7fe491b7bf3b334eb2afcb28bde913fc2"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.aarch64-linux-musl.tar.gz"
 [[SharedMimeInfo]]
 arch = "armv7l"
-git-tree-sha1 = "8237d9ff5bc6e0ec91c4041b11c0a859ae1ea7c2"
+call_abi = "eabihf"
+git-tree-sha1 = "c4fe600175808b63fba83cd56ce7ede8340b37af"
 libc = "glibc"
 os = "linux"
 
     [[SharedMimeInfo.download]]
-    sha256 = "982650db564117d9deb819d6ba237e2fe4512afb163bfdb1bb2d76846473202d"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.arm-linux-gnueabihf.tar.gz"
+    sha256 = "deed5543388daecceeac79c2ec38282cb52d50ce7bf2c1d27b309ebce13c1330"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.armv7l-linux-gnueabihf.tar.gz"
 [[SharedMimeInfo]]
-arch = "x86_64"
-git-tree-sha1 = "abffce43ccdd216d0d12e5f8bd88ba7dd60bb2a6"
-os = "freebsd"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "60b41addf7028d866e7e136499778a52487518f5"
+libc = "musl"
+os = "linux"
 
     [[SharedMimeInfo.download]]
-    sha256 = "545479606b81bace2b54544e0c483519875b8034379f897938f5b3ff0cf0f80d"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "aa28ad0e7762f5098921743f24f207429f847ca3b42c059daaa844dd1d10d8d5"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.armv7l-linux-musleabihf.tar.gz"
+[[SharedMimeInfo]]
+arch = "i686"
+git-tree-sha1 = "c302c35fe1727684370c81c0fbe7e6a40b0b4f53"
+libc = "glibc"
+os = "linux"
+
+    [[SharedMimeInfo.download]]
+    sha256 = "b9b26d7bb090ba4fc6c8eedfc5fe010a5c94a9421297dfa45649e851144e3072"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.i686-linux-gnu.tar.gz"
+[[SharedMimeInfo]]
+arch = "i686"
+git-tree-sha1 = "c5a74e1a4395eebba6b0921c0ee9bfdb23eccc99"
+libc = "musl"
+os = "linux"
+
+    [[SharedMimeInfo.download]]
+    sha256 = "059d19ecbbcc8817cd01cf0ec3be279b703953fe0f6130d5d4c204c22cd1dab2"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.i686-linux-musl.tar.gz"
+[[SharedMimeInfo]]
+arch = "i686"
+git-tree-sha1 = "29cc860fa61b5452207a1a939f3bb9125d89763f"
+os = "windows"
+
+    [[SharedMimeInfo.download]]
+    sha256 = "43ffa5728a66329e5ec2b98f58c1b8faea93c23e2d3dec7801cda4e4b0140341"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.i686-w64-mingw32.tar.gz"
+[[SharedMimeInfo]]
+arch = "powerpc64le"
+git-tree-sha1 = "c98c78f46235e0db5b4ab81d6150e81303d0af47"
+libc = "glibc"
+os = "linux"
+
+    [[SharedMimeInfo.download]]
+    sha256 = "2ace9aa7e27bbf4aa374eaff9b2e7400ddb478c378d18041704613c2d0ee1f73"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.powerpc64le-linux-gnu.tar.gz"
 [[SharedMimeInfo]]
 arch = "x86_64"
-git-tree-sha1 = "6dfd901d5c829ffa4bc2605cd2ff4a2754925ac9"
+git-tree-sha1 = "2a56eaee645c681d3b1285a2144b5e9fb267741c"
 os = "macos"
 
     [[SharedMimeInfo.download]]
-    sha256 = "db256ff54e84dcb40badab4f4f671a96b59b6f752dc9213829e0f67fc40bdd18"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "11f98c15196bd47f9069d0e926555e8061a7e5cf9df577695f51e48c335114fb"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.x86_64-apple-darwin.tar.gz"
 [[SharedMimeInfo]]
-arch = "aarch64"
-git-tree-sha1 = "d48df017568f33b9c4cc3c57bbbdf77e2f2fd8d3"
-libc = "musl"
-os = "linux"
-
-    [[SharedMimeInfo.download]]
-    sha256 = "6bc2d4501f13fa2c607df7042b1a24a04fc73db2f2d5509666b5a7d71263b71b"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.aarch64-linux-musl.tar.gz"
-[[SharedMimeInfo]]
-arch = "powerpc64le"
-git-tree-sha1 = "98a3245e8c8019d40b30a538ad459fe0bd5a9104"
+arch = "x86_64"
+git-tree-sha1 = "4a7d465174d04b905265e8cfcb5bf9bc132045c3"
 libc = "glibc"
 os = "linux"
 
     [[SharedMimeInfo.download]]
-    sha256 = "ef871f133afc4708b25690c3009c65f9041ba4acf4e4a007eac8011f6a28789e"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "c9d6e3286d14c1dfb9e1596a0f45aaa52768b6fc297244ed337d02d118b9031e"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.x86_64-linux-gnu.tar.gz"
 [[SharedMimeInfo]]
-arch = "i686"
-git-tree-sha1 = "ac665a29a4cc6de8ad326362c1b5ec241f8214e9"
-os = "windows"
-
-    [[SharedMimeInfo.download]]
-    sha256 = "ece6450b21202dbe4c98964e54492a15d6edc4f450965a7297d748460d980006"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.i686-w64-mingw32.tar.gz"
-[[SharedMimeInfo]]
-arch = "i686"
-git-tree-sha1 = "57cd9cc4e001da30c48ad32aa4fe5fae7a5c5514"
+arch = "x86_64"
+git-tree-sha1 = "5356e775d3d675462aff31851483ee162d4f77e0"
 libc = "musl"
 os = "linux"
 
     [[SharedMimeInfo.download]]
-    sha256 = "77f10468a81e788b79c9a73ad2bf54183ac6ac320299dab21e42e63c7aa02423"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.i686-linux-musl.tar.gz"
+    sha256 = "a78ef66005592b231aaf3c296113777630a81d2a06503448b1986ccb5361154e"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.x86_64-linux-musl.tar.gz"
 [[SharedMimeInfo]]
 arch = "x86_64"
-git-tree-sha1 = "5aed94da8e8c2d82b932f0078fe13f9187369a80"
+git-tree-sha1 = "f47327085e990ceac881c08527a140371a8bdcf7"
+os = "freebsd"
+
+    [[SharedMimeInfo.download]]
+    sha256 = "84c144d9d26e7ee955258002fefbf7b0d8472f8512977e783cab3e49aefb8a94"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.x86_64-unknown-freebsd.tar.gz"
+[[SharedMimeInfo]]
+arch = "x86_64"
+git-tree-sha1 = "01ee0892a8440d23ddb781fd1de8180b0f046eb8"
 os = "windows"
 
     [[SharedMimeInfo.download]]
-    sha256 = "fa02dc3e48da176fb78bd5026c7b0f428ca242ff896ef266d498efd9aa28ce09"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.x86_64-w64-mingw32.tar.gz"
-[[SharedMimeInfo]]
-arch = "x86_64"
-git-tree-sha1 = "7103461f5fe5f69ed8c948b34f00df228e5829d2"
-libc = "musl"
-os = "linux"
-
-    [[SharedMimeInfo.download]]
-    sha256 = "a9b8225da37a08e19dd8c8d55d53bdb3bf23fdfc5bfa99d8b611a0689cc81f03"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.x86_64-linux-musl.tar.gz"
-[[SharedMimeInfo]]
-arch = "i686"
-git-tree-sha1 = "8851427ea0cb109d788b4d6f508c6de9caf56e03"
-libc = "glibc"
-os = "linux"
-
-    [[SharedMimeInfo.download]]
-    sha256 = "a63c6b462366d15bf54b34aae57d54c9193edfc87d0ccf9300b0134ed11d8f28"
-    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.12.0+0/SharedMimeInfo.v1.12.0.i686-linux-gnu.tar.gz"
+    sha256 = "59188c9bd880684fb1a9fe08655eb33ecc583cd594cd03475a260ea78eaefd04"
+    url = "https://github.com/JuliaBinaryWrappers/SharedMimeInfo_jll.jl/releases/download/SharedMimeInfo-v1.15.0+0/SharedMimeInfo.v1.15.0.x86_64-w64-mingw32.tar.gz"
